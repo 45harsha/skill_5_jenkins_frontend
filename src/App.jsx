@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <BrowserRouter basename="/ecommerce">
+    <BrowserRouter basename="/ecommerce_frontend">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
